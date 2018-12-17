@@ -1,0 +1,268 @@
+// Variables
+
+@green: rgb(58, 94, 46);
+@opaqueGreen: rgba(58, 94, 46, 0.5);
+@lightGreen: rgb(225, 230, 220);
+@orange:rgb(209, 114, 0);
+@purple: rgb(35, 6, 66);
+@red: rgb(130, 23, 0);
+@nearBlack:rgb(18, 18, 18);
+
+// Mix ins
+.standard-button {
+    background-color: @orange;
+    border-radius: 5px;
+    padding: 10px;
+    color: @lightGreen;
+}
+
+.text-background {
+    background-color: @opaqueGreen;
+    border-radius: 10px;
+    max-width: 250px;
+}
+
+.inputLabel {
+    color: rgb(37, 25, 126);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inputField {
+    padding: 5px;
+    border: 1px solid @purple;
+}
+
+.img {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+// CSS
+
+// all pages
+body {
+    padding-top:50px;
+    padding-bottom: 10px;
+    font-family: 'Imprima', sans-serif;
+    color: @nearBlack;
+    background-color: rgb(225, 230, 220);
+    background-image: url(images/farm_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    nav {
+        .brand-name {
+            color: @nearBlack;
+        }
+    }
+
+
+    #main-grid {
+        padding: 20px;
+        padding-bottom: 50px;
+
+        h1 {
+            font-family: 'Noto Serif', serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: @purple;
+        }
+        
+        #empty {
+            min-height: 24vh;
+        }
+
+        .text-standout {
+            color: @nearBlack;
+            padding: 5px;
+            font-size: large;
+        }
+
+        // index
+        #col-photo-link {
+            padding-top: 15px;
+        }
+
+        figure {
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            img {
+                .img;
+            }
+
+            figcaption {
+                text-align: center;
+                .text-background;
+            }
+        }
+
+        .button-link {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .standard-button;
+        }
+
+        textarea {
+            .inputField;
+        }
+
+    // csa_order
+    .csa-image-column {
+        margin-top: 20px;
+
+        .csa-image {
+            display: inline;
+            width: 230px;
+            height: 200px;
+            margin: 5px;
+        }
+    }
+
+    #form-container {
+
+        h2 {
+            color: @orange;
+        }
+
+        h4 {
+            color: @purple;
+            font-weight: bold;
+        }
+    }
+
+    // csa_whatsacsa
+    #csa-info-column {
+
+        h2 {
+            color: @orange;
+        }
+    }
+
+    #csa-info {
+        background-color: @opaqueGreen;
+        border-radius: 10px;
+
+        p {
+            .text-standout;
+        }
+    }
+
+    #csa-order {
+        padding: 20px;
+
+        img{
+            .img;
+        }
+    }
+
+    #csa-image {
+        padding-top: 20px;
+    }
+
+    // tours_schedule
+    #embedded-calendar {
+
+        p {
+            .text-standout;
+        }
+    }
+
+    // tours_virtual
+    #embedded-map {
+
+        .mapouter-large {
+            text-align:right;
+            height:600px;
+            width:600px;
+        }
+
+        .gmap_canvas-large {
+            overflow:hidden;
+            background:none;
+            height:600px;
+            width:600px;
+        }
+
+        .mapouter-small {
+            text-align:right;
+            height:300px;
+            width:300px;
+        }
+
+        .gmap_canvas-small {
+            overflow:hidden;
+            background:none;
+            height:300px;
+            width:300px;
+        }
+    }
+
+    #map-api {
+        width: 600px;
+        height: 600px;
+    }
+    
+    // inseason
+    .in-season {
+
+        h1 {
+            color: @green;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: large;
+            margin-bottom: -15px;
+        }
+
+        p {
+            color: @purple;
+            margin-bottom: -10px;
+        }
+
+        img {
+            max-height: 250px;
+            max-width: 250px;
+        }
+
+        a {
+            .standard-button
+        }
+    }
+
+        .page-header {
+            text-align: center;
+            font-size: 400%;
+            color: @purple;
+        }
+
+        #aboutUs {
+
+            #aboutUs-target {
+                font-size: large;
+            }
+        }
+
+        form {
+
+            label {
+                .inputLabel;
+            }
+
+            input {
+                .inputField;
+            }
+        } 
+    }
+
+    footer {
+
+        a {
+            padding-right: 15px;
+            color: @orange;
+        }
+    }
+
+}

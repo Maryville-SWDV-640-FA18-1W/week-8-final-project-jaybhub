@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: none;
+        background-color: rgb(225, 230, 220);
+    }
+    #col-gap {
+        display: none;
+    }
+
+    #empty {
+        display: none;
+    }
+
+    figcaption {
+        width: 40vw;
+    }
+
+    #row-title-welcome {
+        text-align: center;
+    }
+
+    .large-calendar {
+        display: none;
+    }
+
+    body #main-grid #csa-info {
+        background-color: rgb(225, 230, 220);
+        border-radius: 0;
+    }
+
+    .mapouter-large {
+        display: none;
+    }
+
+    body #main-grid #map-api {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav .brand-name {
+        display: none;
+    }
+
+    .small-calendar {
+        display: none;
+    }
+
+    .mapouter-small {
+        display: none;
+    }
+}

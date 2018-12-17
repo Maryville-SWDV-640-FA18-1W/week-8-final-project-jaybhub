@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forbidden Forest Farm</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Imprima|Noto+Serif:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html">
+            <img class="navbar-brand" src="images/farm_logo.png" alt="">
+          </a>
+          </br>
+          <a class="brand-name" href="index.html">Forbidden Forest Farm</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CSAs<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="csa_whatsacsa.html">What's a CSA?</a></li>
+                <li><a href="csa_order.html">Order Your CSA</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="shop.html">Shop our Items</a></li>
+                <li><a href="shop_cart.html">My Cart</a></li>
+                <li><a href="shop_cart_checkout.html">Check Out</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tours<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="tours_virtual.html">Take A Virtual Tour</a></li>
+                <li><a href="tours_schedule.html">Schedule A Tour</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="inseason.html">What's In Season</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a data-toggle="collapse" data-target=".navbar-collapse" href="about.html#contact-form">Contact Us</a></li>
+                </ul>
+            </li>  
+          </ul>
+        </div> <!-- bs-example-navbar-collapse-1 -->
+      </div> <!-- container -->
+    </nav>
+
+    <div class="container" id="main-grid">
+      <div class="row" id="main-row">
+        <div class="col-xs-12 col-sm-6" id="col-title-welcome">
+            <div class="row" id="row-title-welcome">
+              <div class="column col-8" id="title">
+                <h1>Forbidden Forest Farm</h1>
+              </div> <!-- title -->
+              <div class="column col" id="empty" style="min-height: 15vh;">
+              </div> <!-- empty -->
+              <div class="column col align-self-end text-standout" id="welcome-text">
+                  <h3>Welcome!</h3>
+                  <p>The Forbidden Forest Farm is our family-owned and operated permaculture site dedicated to healthy produce and sustainable practices. Our 3-acre operation features a small orchard of fruit and nut trees, berry bushes, flower gardens, and vegetable gardens. Let us provide you with your local, healthy produce needs!</p>
+              </div> <!-- welcome-text -->
+            </div> <!-- row-title-welcome -->
+        </div> <!-- col-title-welcome-->
+
+        <div class="column col-xs-12 col-sm-2" id="col-gap">
+        </div> <!-- col-gap -->
+
+        <div class="column col-sm-4" id="col-photo-link">
+          <div class="row">
+            <div class="column col" id="photo-section">
+                <figure>
+                  <a href="csa_order.html"><img class="img-thumbnail" src="images/peaches.jpg" alt="peaches" role="link" aria-describedby="peaches-caption"></a> 
+                  <figcaption id="peaches-caption">Peaches</figcaption>
+                </figure>
+              </br>
+                <a href="inseason.html" class="button-link">What's In Season</a>
+              </br>
+              </br>
+                <figure>
+                  <a href="csa_order.html"><img class="img-thumbnail" src="images/hazelnuts.jpg" alt="hazelnuts" role="link" aria-describedby="hazelnut-caption"></a>
+                  <figcaption id="hazelnut-caption">Hazelnuts</figcaption>
+                </figure>
+              </br>
+                <a href="csa_order.html" class="button-link">Order Your CSA!</a>
+              </br>
+              </br>
+              </div> <!-- photo-section-->
+          </div> <!-- row -->    
+        </div> <!-- col-photo-link -->
+
+      </div> <!-- main-row -->
+    </div> <!-- main-grid -->
+    
+
+      <footer class="navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <div class="row">
+              <a href="https://www.facebook.com" class="fab fa-facebook-square fa-3x"></a>
+              <a href="https://twitter.com/" class="fab fa-twitter-square fa-3x"></a>
+              <a href="https://www.instagram.com/?hl=en" class="fab fa-instagram fa-3x"></a>
+              <a href="https://www.pinterest.com/" class="fab fa-pinterest-square fa-3x"></a>
+              <a href="https://plus.google.com/discover" class="fab fa-google-plus-square fa-3x"></a>
+              <a href="https://www.linkedin.com/" class="fab fa-linkedin fa-3x"></a>
+          </div> <!-- row -->
+        </div> <!-- container-->
+      </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

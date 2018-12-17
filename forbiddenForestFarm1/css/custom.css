@@ -1,0 +1,95 @@
+body {
+	font-family: 'Imprima', sans-serif;
+	color: rgb(18, 18, 18);
+	font-size: medium;
+}
+h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(18, 18, 18);
+}
+h2 {
+	font-size: 20px;
+	color: rgb(18, 18, 18);
+}
+h3 {
+	font-size: 16px;
+	color: rgb(18, 18, 18);
+}
+button {
+	background-color: rgb(209, 114, 0);
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+}
+.inputLabel {
+	color: rgb(37, 25, 126);
+	font-size: 14px;
+	font-weight: bold;
+}
+input.inputField {
+	padding: 5px;
+	border: 1px solid rgb(35, 6, 66);
+}
+div.box {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+#primary1 {
+	/* background-color: rgb(12, 41, 10); */
+	/* background-color: rgb(35, 74, 35); */
+	background-color: rgb(58, 94, 46);
+}
+#primary2 {
+	background-color: rgb(209, 114, 0);
+	
+}
+#primary3 {
+	 /* background-color: rgb(37, 25, 126); */
+	 background-color: rgb(35, 6, 66);
+	 
+}
+
+#primary4 { 
+	background-color: rgb(243, 255, 198);
+} 
+#primary5 {
+	/* background-color: rgb(217, 87, 0); */
+	background-color: rgb(130, 23, 0);
+}
+.warning {
+	background-color: rgb(209, 114, 0);
+	font-weight: bold;
+	color:  rgb(18, 18, 18);
+	padding: 10px;
+	border-radius: 5px;
+}
+.danger {
+	background-color: rgb(130, 23, 0);
+	font-weight: bold;
+	color: rgb(243, 255, 198);
+	padding: 10px;
+	border-radius: 5px;
+}
+.success {
+	background-color: rgb(35, 74, 35);
+	font-weight: bold;
+	color: rgb(243, 255, 198);
+	padding: 10px;
+	border-radius: 5px;
+}
+svg.svg-inline--fa {
+	color: white;
+}
+.spacer {
+	margin-top: 25px;
+}
+#footer {
+	border-top: 1px solid rgb(18, 18, 18);
+	margin-top: 50px;
+	padding: 10px;
+	text-align: center;
+}

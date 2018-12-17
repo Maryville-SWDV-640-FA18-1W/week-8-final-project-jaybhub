@@ -1,0 +1,196 @@
+.standard-button {
+  background-color: #d17200;
+  border-radius: 5px;
+  padding: 10px;
+  color: #e1e6dc;
+}
+.text-background {
+  background-color: rgba(58, 94, 46, 0.5);
+  border-radius: 10px;
+  max-width: 250px;
+}
+.inputLabel {
+  color: #25197e;
+  font-size: 14px;
+  font-weight: bold;
+}
+.inputField {
+  padding: 5px;
+  border: 1px solid #230642;
+}
+.img {
+  max-height: 250px;
+  max-width: 250px;
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: 'Imprima', sans-serif;
+  color: #121212;
+  background-color: #e1e6dc;
+  background-image: url(images/farm_background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+body nav .brand-name {
+  color: #121212;
+}
+body #main-grid {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+body #main-grid h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #230642;
+}
+body #main-grid #empty {
+  min-height: 24vh;
+}
+body #main-grid .text-standout {
+  color: #121212;
+  padding: 5px;
+  font-size: large;
+}
+body #main-grid #col-photo-link {
+  padding-top: 15px;
+}
+body #main-grid figure {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body #main-grid figure img {
+  max-height: 250px;
+  max-width: 250px;
+}
+body #main-grid figure figcaption {
+  text-align: center;
+  background-color: rgba(58, 94, 46, 0.5);
+  border-radius: 10px;
+  max-width: 250px;
+}
+body #main-grid .button-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d17200;
+  border-radius: 5px;
+  padding: 10px;
+  color: #e1e6dc;
+}
+body #main-grid textarea {
+  padding: 5px;
+  border: 1px solid #230642;
+}
+body #main-grid .csa-image-column {
+  margin-top: 20px;
+}
+body #main-grid .csa-image-column .csa-image {
+  display: inline;
+  width: 230px;
+  height: 200px;
+  margin: 5px;
+}
+body #main-grid #form-container h2 {
+  color: #d17200;
+}
+body #main-grid #form-container h4 {
+  color: #230642;
+  font-weight: bold;
+}
+body #main-grid #csa-info-column h2 {
+  color: #d17200;
+}
+body #main-grid #csa-info {
+  background-color: rgba(58, 94, 46, 0.5);
+  border-radius: 10px;
+}
+body #main-grid #csa-info p {
+  color: #121212;
+  padding: 5px;
+  font-size: large;
+}
+body #main-grid #csa-order {
+  padding: 20px;
+}
+body #main-grid #csa-order img {
+  max-height: 250px;
+  max-width: 250px;
+}
+body #main-grid #csa-image {
+  padding-top: 20px;
+}
+body #main-grid #embedded-calendar p {
+  color: #121212;
+  padding: 5px;
+  font-size: large;
+}
+body #main-grid #embedded-map .mapouter-large {
+  text-align: right;
+  height: 600px;
+  width: 600px;
+}
+body #main-grid #embedded-map .gmap_canvas-large {
+  overflow: hidden;
+  background: none;
+  height: 600px;
+  width: 600px;
+}
+body #main-grid #embedded-map .mapouter-small {
+  text-align: right;
+  height: 300px;
+  width: 300px;
+}
+body #main-grid #embedded-map .gmap_canvas-small {
+  overflow: hidden;
+  background: none;
+  height: 300px;
+  width: 300px;
+}
+body #main-grid #map-api {
+  width: 600px;
+  height: 600px;
+}
+body #main-grid .in-season h1 {
+  color: #3a5e2e;
+  padding-bottom: 10px;
+}
+body #main-grid .in-season h3 {
+  font-size: large;
+  margin-bottom: -15px;
+}
+body #main-grid .in-season p {
+  color: #230642;
+  margin-bottom: -10px;
+}
+body #main-grid .in-season img {
+  max-height: 250px;
+  max-width: 250px;
+}
+body #main-grid .in-season a {
+  background-color: #d17200;
+  border-radius: 5px;
+  padding: 10px;
+  color: #e1e6dc;
+}
+body #main-grid .page-header {
+  text-align: center;
+  font-size: 400%;
+  color: #230642;
+}
+body #main-grid #aboutUs #aboutUs-target {
+  font-size: large;
+}
+body #main-grid form label {
+  color: #25197e;
+  font-size: 14px;
+  font-weight: bold;
+}
+body #main-grid form input {
+  padding: 5px;
+  border: 1px solid #230642;
+}
+body footer a {
+  padding-right: 15px;
+  color: #d17200;
+}
